@@ -1,1 +1,1 @@
-sphinx-build -b html -D language=ru source build/ru
+sphinx-build -b html -D language=ru docs build/ru
