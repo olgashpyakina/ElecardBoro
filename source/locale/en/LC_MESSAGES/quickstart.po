@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Olga Shpyakina
+# This file is distributed under the same license as the Elecard
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Elecard Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-21 11:23+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../source/quickstart.rst:2
+msgid "Quick Start"
+msgstr ""
+
+#: ../../source/quickstart.rst:4
+msgid "Step 1. Register your account and get the probe"
+msgstr ""
+
+#: ../../source/quickstart.rst:5
+msgid ""
+"To `register <http://boro.elecard.ru/users/sign_up/>`_ fill in the "
+"**e-mail** and **password** fields. You will get a confirmation email "
+"with an activation link. Please confirm your registration."
+msgstr ""
+
+#: ../../source/quickstart.rst:7
+msgid ""
+"`Log in <http://boro.elecard.ru/users/sign_in>`_ and create a project by "
+"clicking the button:"
+msgstr ""
+
+#: ../../source/quickstart.rst:11
+msgid ""
+"You will be redirected to the project page automatically. Download the "
+"probe's archive file by clicking the button:"
+msgstr ""
+
+#: ../../source/quickstart.rst:15
+msgid "Extract the downloaded archive to a required directory."
+msgstr ""
+
+#: ../../source/quickstart.rst:16
+msgid "Choose a folder matching your operating system (lin32/64, win32/64)."
+msgstr ""
+
+#: ../../source/quickstart.rst:18
+msgid "*Note: the archive file is attached to the current project only.*"
+msgstr ""
+
+#: ../../source/quickstart.rst:21
+msgid "Step 2. Set up and run the probe"
+msgstr ""
+
+#: ../../source/quickstart.rst:22
+msgid ""
+"Edit **monitor.cfg** in a chosen folder. Edit **\"AppDescription\"** "
+"field to change the probe name (the file must be in the UTF-8 if you use "
+"non-alphanumeric symbols)."
+msgstr ""
+
+#: ../../source/quickstart.rst:23
+msgid ""
+"Edit **proxy server** in **monitor.cfg** file if it is necessary. Then "
+"enable it by deleting \"//\" symbols at the beginning of the line."
+msgstr ""
+
+#: ../../source/quickstart.rst:24
+msgid ""
+"Run **streamMonitor.exe** in your command prompt (./streamMonitor - OC "
+"Linux)."
+msgstr ""
+
+#: ../../source/quickstart.rst:25
+msgid ""
+"For Windows OS: allow **streamMonitor.exe** to communicate in public and "
+"private networks (set two check boxes in the Windows Firewall)."
+msgstr ""
+
+#: ../../source/quickstart.rst:28
+msgid "Step 3. Set tasks to the probe"
+msgstr ""
+
+#: ../../source/quickstart.rst:29
+msgid ""
+"After running the probe, the service page should update automatically. "
+"Open the sidebar containing the name of your probe and click it."
+msgstr ""
+
+#: ../../source/quickstart.rst:33
+msgid "To set a task for the analysis click the button:"
+msgstr ""
+
+#: ../../source/quickstart.rst:37
+msgid ""
+"Fill in the fields listed below and click the \"Run\" button in the "
+"resulting window. You can run several streams simultaneously."
+msgstr ""
+
+#: ../../source/quickstart.rst:39
+msgid ""
+"**URI**  - location of the streams to be analyzed (supported prefixes "
+"are: file://, udp://, rtp://, http://, https://)."
+msgstr ""
+
+#: ../../source/quickstart.rst:40
+msgid "**Name** - name of the analyzed stream."
+msgstr ""
+
+#: ../../source/quickstart.rst:41
+msgid ""
+"**Network interface IP** - NIC IP address used by the probe to receive "
+"the stream. Leave it blank if you want the probe to work according to the"
+" routing table."
+msgstr ""
+
+#: ../../source/quickstart.rst:43
+msgid "Click the \"LiveView\" icon to check the run visually."
+msgstr ""
+
+#: ../../source/quickstart.rst:47
+msgid "For detailed information about the stream click its name."
+msgstr ""
+
+#: ../../source/quickstart.rst:49
+msgid ""
+"*Note: the user is able to analyze up to 10 streams for 7 days right "
+"after the registration. Contact the technical support team to get a "
+"30-day trial version using the \"Contact us\" form.*"
+msgstr ""
+

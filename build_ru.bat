@@ -1,0 +1,1 @@
+sphinx-build -b html -D language=ru source build/ru

@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Olga Shpyakina
+# This file is distributed under the same license as the Elecard Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Elecard Documentation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-21 11:23+0700\n"
+"PO-Revision-Date: 2018-05-22 14:20+0700\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: ../../source/quickstart.rst:2
+msgid "Quick Start"
+msgstr "Начало работы"
+
+#: ../../source/quickstart.rst:4
+msgid "Step 1. Register your account and get the probe"
+msgstr "Шаг 1. Зарегистрируйте аккаунт и получите зонд"
+
+#: ../../source/quickstart.rst:5
+msgid ""
+"To `register <http://boro.elecard.ru/users/sign_up/>`_ fill in the **e-"
+"mail** and **password** fields. You will get a confirmation email with an "
+"activation link. Please confirm your registration."
+msgstr ""
+"Для `регистрации <http://boro.elecard.ru/users/sign_up/>`_ необходимо "
+"заполнить поля **e-mail** и **пароль**. На вашу электронную почту придет "
+"запрос о подтверждении регистрации. Пожалуйста, перейдите по полученной "
+"ссылке."
+
+#: ../../source/quickstart.rst:7
+msgid ""
+"`Log in <http://boro.elecard.ru/users/sign_in>`_ and create a project by "
+"clicking the button:"
+msgstr ""
+"`Войдите в систему <http://boro.elecard.ru/users/sign_in>`_ и создайте "
+"проект, нажав на кнопку:"
+
+#: ../../source/quickstart.rst:11
+msgid ""
+"You will be redirected to the project page automatically. Download the "
+"probe's archive file by clicking the button:"
+msgstr ""
+"После создания проекта вы будете автоматически перенаправлены на страницу "
+"проекта. Скачайте архив с приложениями зонда, нажав на кнопку:"
+
+#: ../../source/quickstart.rst:15
+msgid "Extract the downloaded archive to a required directory."
+msgstr "Распакуйте архив в выбранную директорию."
+
+#: ../../source/quickstart.rst:16
+msgid "Choose a folder matching your operating system (lin32/64, win32/64)."
+msgstr ""
+"Выберите папку, соответствующую вашей операционной системе (Lin32/64, "
+"Win32/64)."
+
+#: ../../source/quickstart.rst:18
+msgid "*Note: the archive file is attached to the current project only.*"
+msgstr "*Примечание: скачанный архив связан только с данным проектом!*"
+
+#: ../../source/quickstart.rst:21
+msgid "Step 2. Set up and run the probe"
+msgstr "Шаг 2. Настройте и запустите зонд"
+
+#: ../../source/quickstart.rst:22
+msgid ""
+"Edit **monitor.cfg** in a chosen folder. Edit **\"AppDescription\"** field "
+"to change the probe name (the file must be in the UTF-8 if you use non-"
+"alphanumeric symbols)."
+msgstr ""
+"В выбранной папке, в файле **monitor. cfg** необходимо отредактировать "
+"название зонда - значение поля **\"AppDescription\"** (файл должен быть "
+"сохранен в кодировке UTF-8, если вы используете отличные от латиницы и цифр "
+"символы)."
+
+#: ../../source/quickstart.rst:23
+msgid ""
+"Edit **proxy server** in **monitor.cfg** file if it is necessary. Then "
+"enable it by deleting \"//\" symbols at the beginning of the line."
+msgstr ""
+"При необходимости, в файле **monitor. cfg** отредактируйте **proxy сервер** "
+"и задействуйте его, убрав символы \"//\" в начале строки."
+
+#: ../../source/quickstart.rst:24
+msgid ""
+"Run **streamMonitor.exe** in your command prompt (./streamMonitor - OC "
+"Linux)."
+msgstr ""
+"Запустите в командной строке **streamMonitor.exe** (./streamMonitor - OC "
+"Linux)."
+
+#: ../../source/quickstart.rst:25
+msgid ""
+"For Windows OS: allow **streamMonitor.exe** to communicate in public and "
+"private networks (set two check boxes in the Windows Firewall)."
+msgstr ""
+"Для ОС Windows: разрешите использовать частные и публичные сети для работы "
+"**streamMonitor.exe** (установите две галочки в Брандмауэре Windows)."
+
+#: ../../source/quickstart.rst:28
+msgid "Step 3. Set tasks to the probe"
+msgstr "Шаг 3. Поставьте задачи зонду"
+
+#: ../../source/quickstart.rst:29
+msgid ""
+"After running the probe, the service page should update automatically. Open "
+"the sidebar containing the name of your probe and click it."
+msgstr ""
+"После запуска зонда страница сервиса должна автоматически обновиться. "
+"Раскройте боковую панель, на которой отобразится имя вашего зонда. Кликните "
+"на него."
+
+#: ../../source/quickstart.rst:33
+msgid "To set a task for the analysis click the button:"
+msgstr "Для постановки задач на анализ кликните кнопку:"
+
+#: ../../source/quickstart.rst:37
+msgid ""
+"Fill in the fields listed below and click the \"Run\" button in the "
+"resulting window. You can run several streams simultaneously."
+msgstr ""
+"В появившемся окне необходимо заполнить указанные ниже поля и нажать кнопку "
+"\"Запустить\". Одновременно можно запускать несколько потоков."
+
+#: ../../source/quickstart.rst:39
+msgid ""
+"**URI**  - location of the streams to be analyzed (supported prefixes are: "
+"file://, udp://, rtp://, http://, https://)."
+msgstr ""
+"**URI** - адрес потока, который будет анализироваться (поддерживаются "
+"следующие префиксы: file://, udp://, rtp://, http://, https://)."
+
+#: ../../source/quickstart.rst:40
+msgid "**Name** - name of the analyzed stream."
+msgstr "**Имя** - название анализируемого потока."
+
+#: ../../source/quickstart.rst:41
+msgid ""
+"**Network interface IP** - NIC IP address used by the probe to receive the "
+"stream. Leave it blank if you want the probe to work according to the "
+"routing table."
+msgstr ""
+"**IP сетевого интерфейса** - IP адрес сетевого интерфейса, через который "
+"анализатор будет пытаться получить поток. Оставьте это поле пустым, если "
+"хотите, чтобы анализатор работал согласно системной таблице маршрутизации."
+
+#: ../../source/quickstart.rst:43
+msgid "Click the \"LiveView\" icon to check the run visually."
+msgstr ""
+"Визуально проконтролировать запуск можно, кликнув по значку \"Диаграмма\"."
+
+#: ../../source/quickstart.rst:47
+msgid "For detailed information about the stream click its name."
+msgstr "Кликните на имя потока для получения детальной информации о нем."
+
+#: ../../source/quickstart.rst:49
+msgid ""
+"*Note: the user is able to analyze up to 10 streams for 7 days right after "
+"the registration. Contact the technical support team to get a 30-day trial "
+"version using the \"Contact us\" form.*"
+msgstr ""
+"*Примечание: на семь дней после регистрации пользователю дается возможность "
+"поставить на анализ до 10 потоков. Обратитесь в команду технической "
+"поддержки для получения бесплатного 30ти дневного доступа к сервису, "
+"используя \"Обратную связь\".*"
